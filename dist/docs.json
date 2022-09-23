@@ -1,0 +1,35 @@
+{
+  "api": {
+    "name": "AppCheckPlugin",
+    "slug": "appcheckplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "getToken",
+        "signature": "() => Promise<{ token: string; expireTimeMillis: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ token: string; expireTimeMillis: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "gettoken"
+      },
+      {
+        "name": "enableDebug",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "enabledebug"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface AppCheckPlugin {\n  getToken(): Promise<{ token: string; expireTimeMillis: string }>;\n  enableDebug(): Promise<void>;\n}\n"]}
