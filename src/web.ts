@@ -3,9 +3,9 @@ import type { AppCheckPlugin } from './definitions';
 
 export class AppCheckWeb extends WebPlugin implements AppCheckPlugin {
   async getToken(): Promise<{ token: string; expireTimeMillis: string }> {
-    return { token: 'web', expireTimeMillis: 'web' };
+    throw new Error('Method not implemented, use Firebase JS SDK');
   }
   async enableDebug(): Promise<void> {
-    return;
+    throw new Error('Method not implemented, use Firebase JS SDK');
   }
 }
