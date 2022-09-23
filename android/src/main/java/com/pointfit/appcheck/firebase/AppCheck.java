@@ -8,4 +8,5 @@ public class AppCheck {
         Log.i("Echo", value);
         return value;
     }
+
 }

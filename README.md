@@ -13,24 +13,30 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`getToken()`](#gettoken)
+* [`enableDebug()`](#enabledebug)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### getToken()
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+getToken() => Promise<{ token: string; expireTimeMillis: string; }>
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+**Returns:** <code>Promise&lt;{ token: string; expireTimeMillis: string; }&gt;</code>
 
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+--------------------
+
+
+### enableDebug()
+
+```typescript
+enableDebug() => Promise<void>
+```
 
 --------------------
 

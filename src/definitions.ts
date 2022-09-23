@@ -1,3 +1,4 @@
 export interface AppCheckPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  getToken(): Promise<{ token: string; expireTimeMillis: string }>;
+  enableDebug(): Promise<void>;
 }
