@@ -1,10 +1,10 @@
 import { WebPlugin } from '@capacitor/core';
 export class AppCheckWeb extends WebPlugin {
     async getToken() {
-        return { token: 'web', expireTimeMillis: 'web' };
+        throw new Error('Method not implemented, use Firebase JS SDK');
     }
     async enableDebug() {
-        return;
+        throw new Error('Method not implemented, use Firebase JS SDK');
     }
 }
 //# sourceMappingURL=web.js.map

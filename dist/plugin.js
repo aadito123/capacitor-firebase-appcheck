@@ -7,10 +7,10 @@ var capacitorAppCheck = (function (exports, core) {
 
     class AppCheckWeb extends core.WebPlugin {
         async getToken() {
-            return { token: 'web', expireTimeMillis: 'web' };
+            throw new Error('Method not implemented, use Firebase JS SDK');
         }
         async enableDebug() {
-            return;
+            throw new Error('Method not implemented, use Firebase JS SDK');
         }
     }
 
