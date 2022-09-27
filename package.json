@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorFirebaseAppcheck.podspec"
+    "CapacitorFirebaseAppCheck.podspec"
   ],
   "author": "aadito123",
   "license": "MIT",
