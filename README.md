@@ -1,5 +1,7 @@
 # firebase-app-check
 
+I recommmend not to use this implementation. Use [this](https://github.com/capawesome-team/capacitor-firebase/tree/main/packages/app-check) instead. It is basically the same but with active maintainers.
+
 Implements app attestation for Android and iOS with the Firebase wrapper
 
 ## Install
